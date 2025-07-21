@@ -5,10 +5,10 @@ allLinks.forEach(link => {
             setActiveItem(e.target);
             return;
         }
-
         document.startViewTransition(() => setActiveItem(e.target));
     });
 });
+
 
 function setActiveItem(element) {
     allLinks.forEach(link => link.classList.remove('active'));

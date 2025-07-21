@@ -73,7 +73,7 @@
     ::view-transition-new(active-nav-elem) {
         height: 100%
     }
-    ::view-transition-group(nav-item) {
+    ::view-transition-group(.nav-item) {
         z-index: 1;
     }
     ::view-transition-group(active-nav-elem) {
